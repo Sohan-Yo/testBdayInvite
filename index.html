@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="text-bg-dark p-3" lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fennec co</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .customNav{
+           display: flex;
+           justify-content: center;
+
+        }
+        .smallTxt{
+            font-size: 20px;
+        }
+     .oneLine{
+        display: inline-block;
+        margin-right: 20px;
+     }
+     .oneP{
+        display: inline-block;
+        width: 1000px;
+     }
+
+     @media(max-width: 600px){
+        .oneLine{
+            display: flex;
+            justify-content: center;
+        }
+        .customCard{
+            width: 5000px;
+        }
+        .oneP{
+            display: block;
+            width: auto;
+            margin-top: 20px;
+            clear: left;
+        }
+     }
+    </style>
+</head>
+<body>
+  
+    <div class="customNav">
+        <h1>Welcome to my Birthday Party </h1>
+    </div>
+    <hr>
+
+      <div style="margin-top: 100px;" class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">29<span class="smallTxt">th</span> January, 2024 </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">It is my 15th birthday coming this month and I invite you to my birthday party starting at 7:00pm IST. Please make some time and come to the party without fail. Click the below buttons to confirm if you are coming or not.
+           </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3" fdprocessedid="sh0oxa">Yes, I am coming</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4" fdprocessedid="3qptng">No, I am not coming</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="oneLine">
+        <div class="card customCard" style="width: 18rem;">
+        <div style="display: inline;" class="card-body">
+          <h5 class="card-title">Party Address</h5>
+          <p class="card-text">For those who don't know my address</p>
+          <a href="https://www.google.com/maps/place/Aashirwada/@12.961447,77.4905852,19z/data=!4m6!3m5!1s0x3bae3fb68651343b:0xc4bca95673336cab!8m2!3d12.961324!4d77.490592!16s%2Fg%2F11st_r1txp?entry=ttu" class="btn btn-primary">Google Maps</a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="oneP">
+        <div class="alert alert-info" role="alert">
+            <h4>Things expected</h4>
+                <ul>
+                    <li>Please come on time. (7:00 pm)</li>
+                    <li>Don't make a mess in the house. </li>
+                    <li>Don't fight</li>
+                    <li>Gift, not compulsory (Please don't get anything for price more than 500 rupees)</li>
+                    <li>Enjoy the party</li>
+
+
+                </ul>
+          </div>
+    </div>
+ 
+</body>
+</html>
